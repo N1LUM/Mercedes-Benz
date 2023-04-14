@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Georama', sans-serif;
+	background:  #0f0f0f;
+}
+.header{
+	background: #0f0f0f;
+	padding: 20px 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.logo__name{
+	text-decoration: none;
+	margin: 0 0 0 20px;
+	font-size: 20px;
+	font-family: 'Georama', sans-serif;
+	color: white;
+}
+.right-side{
+	display: flex;
+	
+}
+.find{
+	display: flex;
+	align-items: center;
+	background: #4d4d4d;
+	padding: 0;
+	border-radius: 5px;
+}
+.find__field{
+	background: #4d4d4d;
+	color: white;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 5px;
+	outline: 0;
+}
+.find__field:focus{
+	width: 400px;
+}
+.find__field::placeholder{
+	color: #a8a7a7;
+}
+.find__search_button{
+	background: none;
+	cursor: pointer;
+	border: 0;
+	width: 50px;
+	border-left: 1px solid #a8a7a7;
+}
+.find__search_img{
+	fill: #a8a7a7;
+	width: 20px;
+}
+.user svg{
+	width: 20px;
+	fill: white;
+}
+.user svg:hover{
+	fill: grey;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #0f0f0f;
+	border-top: 1px solid #4d4d4d;
+	padding: 0 200px;
+}
+.elements{
+	margin: 0;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.elements__img{
+	fill: #a8a7a7;
+	width: 25px;
+}
+.links__elements_element{
+	text-decoration: none;
+	color: #a8a7a7;
+	font-size: 18px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 0 25px 0 0;
+}
+.links__elements_element:hover{
+	color: white;
+}
+.links__elements_element:hover svg{
+	fill: white;
+}
+.links__elements_element:hover ul{
+	display: block;
+	position: absolute;
+}
+.userdrop{
+	z-index: 999;
+	position: absolute;
+	right: 0px;
+	display: none;
+	background: white;
+	width: 300px;
+	list-style-type: none;
+	padding: 0px 20px 20px 50px;
+	text-align: left;
+	margin: 20px 0 0 0 ;
+	border-radius: 5px;
+}
+.drop{
+	z-index: 999;
+	position: absolute;
+	display: none;
+	background: white;
+	width: 300px;
+	list-style-type: none;
+	padding: 0px 20px 20px 50px;
+	text-align: left;
+	margin: 20px 0 0 0 ;
+	border-radius: 5px;
+}
+.auth{
+	position: absolute;
+	display: none;
+	background: white;
+	width: 300px;
+	list-style-type: none;
+	padding: 0px 20px 20px 50px;
+	text-align: left;
+	margin: 118px 0 0 0 ;
+	border-radius: 5px;
+}
+.button-auth a{
+	text-decoration: none;
+}
+.button-entrance{
+	background: #0081fa;
+	border: 0;
+	border-radius: 2px;
+	width: 100%;
+	font-size: 15px;
+	padding: 15px 0;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.button-entrance a{
+	color: white;
+	font-weight: bold;
+}
+.button-entrance:hover{
+	background: #0264bf;
+}
+.button-registration{
+	background: white;
+	border: 0;
+	border-radius: 2px;
+	width: 100%;
+	font-size: 15px;
+	padding: 15px 0;
+	text-decoration: none;
+	margin-top: 5px;
+	transition: 0.2s;
+}
+.button-registration a{
+	color: #0081fa;
+	font-weight: bold;
+}
+.button-registration:hover{
+	background: #f2f2f2;
+}
+.drop__category a{
+	text-decoration: none;
+	color: #0f0f0f;
+}
+.drop__category:hover a{
+	color: #a8a7a7;
+}
+.drop__category:not( :first-child){
+	margin: 10px 0 0 0;
+}
+.showDrop{
+	display: block;
+}
+footer{
+	border-top:1px solid #a8a7a7 ;
+	padding: 40px 200px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+footer img{
+	width: 30px;
+}
